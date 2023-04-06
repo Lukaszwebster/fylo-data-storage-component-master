@@ -30,8 +30,8 @@ module.exports = {
 				gradient2: "hsl(335, 100%, 65%)",
 			},
 			backgroundImage: {
-				"bg-Mobile": "url('./images/bg-mobile.png')",
-				"bg-desktop": "url('./images/bg-desktop.png')",
+				mobile: "url('./images/bg-mobile.png')",
+				desktop: "url('./images/bg-desktop.png')",
 			},
 		},
 	},
