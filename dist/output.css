@@ -713,7 +713,7 @@ video {
 }
 
 .bg-mobile {
-  background-image: url('/images/bg-mobile.png');
+  background-image: url('images/bg-mobile.png');
 }
 
 .from-gradient1 {
@@ -851,7 +851,7 @@ video {
   }
 
   .lg\:bg-desktop {
-    background-image: url('/images/bg-desktop.png');
+    background-image: url('images/bg-desktop.png');
   }
 
   .lg\:bg-cover {
