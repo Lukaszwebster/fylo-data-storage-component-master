@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -528,10 +528,6 @@ video {
   bottom: -1.25rem;
 }
 
-.-bottom-8 {
-  bottom: -2rem;
-}
-
 .-top-1 {
   top: -0.25rem;
 }
@@ -712,12 +708,12 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-bgMobile {
-  background-image: url('/images/bg-mobile.png');
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-mobile {
+  background-image: url('/images/bg-mobile.png');
 }
 
 .from-gradient1 {
@@ -830,20 +826,8 @@ video {
     right: -0.5rem;
   }
 
-  .lg\:-top-10 {
-    top: -2.5rem;
-  }
-
   .lg\:-top-44 {
     top: -11rem;
-  }
-
-  .lg\:bottom-28 {
-    bottom: 7rem;
-  }
-
-  .lg\:right-1 {
-    right: 0.25rem;
   }
 
   .lg\:block {
@@ -858,10 +842,6 @@ video {
     width: 10rem;
   }
 
-  .lg\:w-auto {
-    width: auto;
-  }
-
   .lg\:w-full {
     width: 100%;
   }
@@ -870,7 +850,7 @@ video {
     gap: 2rem;
   }
 
-  .lg\:bg-bgdesktop {
+  .lg\:bg-desktop {
     background-image: url('/images/bg-desktop.png');
   }
 
