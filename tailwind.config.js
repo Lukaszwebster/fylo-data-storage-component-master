@@ -25,13 +25,12 @@ module.exports = {
 				GrayishBlue: "hsl(229, 7%, 55%)",
 				DarkBlue: "hsl(228, 56%, 26%)",
 				VeryDarkBlue: "hsl(229, 57%, 11%)",
-
 				gradient1: "hsl(6, 100%, 80%)",
 				gradient2: "hsl(335, 100%, 65%)",
 			},
 			backgroundImage: {
-				mobile: "url('images/bg-mobile.png')",
-				desktop: "url('images/bg-desktop.png')",
+				mobile: "url('./images/bg-mobile.png')",
+				desktop: "url('./images/bg-desktop.png')",
 			},
 		},
 	},
